@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Check decoding of getrlimit and setrlimit syscalls.
+
+. "${srcdir=.}/init.sh"
+run_strace_match_diff -a27 -e trace=getrlimit,setrlimit

@@ -277,4 +277,5 @@ xet_robust_list
 xetitimer
 xetpgid
 xetpriority
+xetrlimit
 xettimeofday

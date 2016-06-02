@@ -330,6 +330,7 @@ check_PROGRAMS = \
 	xetitimer \
 	xetpgid \
 	xetpriority \
+	xetrlimit \
 	xettimeofday \
 	# end of check_PROGRAMS
 
@@ -622,6 +623,7 @@ DECODER_TESTS = \
 	xetitimer.test \
 	xetpgid.test \
 	xetpriority.test \
+	xetrlimit.test \
 	xettimeofday.test \
 	# end of DECODER_TESTS
 
